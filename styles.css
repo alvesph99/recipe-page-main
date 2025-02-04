@@ -101,22 +101,23 @@ body {
 /* @media é basicamente um if, da pra usar
   até pra ver se o sistema quer dark ou light theme */
 
-@media (min-width: 500px) {
+@media (min-width: 450px) {
   body {
     background-color: var(--clr-stone-100);
+    display: flex;
+    justify-content: center;
   }
 
   .hero picture img {
     border-radius: 1rem;
-    /* width: 100%; */
   }
 
   .hero {
     background-color: var(--clr-neutral-100);
     padding: 1rem;
     border-radius: 1rem;
-    margin: 5rem auto;
-    width: 600px;
+    margin-block: 4rem;
+    max-width: 550px;
   }
 }
 
