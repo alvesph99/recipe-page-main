@@ -104,8 +104,6 @@ body {
 @media (min-width: 450px) {
   body {
     background-color: var(--clr-stone-100);
-    display: flex;
-    justify-content: center;
   }
 
   .hero picture img {
@@ -117,6 +115,7 @@ body {
     padding: 1rem;
     border-radius: 1rem;
     margin-block: 4rem;
+    margin-inline: auto;
     max-width: 550px;
   }
 }
